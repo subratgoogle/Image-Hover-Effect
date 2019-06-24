@@ -1,0 +1,86 @@
+body{
+    background: #221a44;
+    height: 100px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 260px;
+}
+.container{
+    height: 250px;
+    width: 300px;
+    border: 30px solid #3dc;
+    text-align: center;
+    color: #fff;
+    position: relative;
+
+}
+img{
+    transition: all .2s linear;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+.container: hover img{
+    transform: scale(1.1);
+}
+.overlay{
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+   
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+.container:hover .overlay{
+    background: rgba(2, 6, 114, 9);
+}
+.container h1{
+    transform: translateY(-370px);
+    -webkit-transform: translateY(-370px);
+    -moz-transform: translateY(-370px);
+    -ms-transform: translateY(-370px);
+    -o-transform: translateY(-370px);
+}
+.container p{
+    transform: translateY(-230px);
+    -webkit-transform: translateY(-230px);
+    -moz-transform: translateY(-230px);
+    -ms-transform: translateY(-230px);
+    -o-transform: translateY(-230px);
+}
+.container button{
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+}
+.container p{
+  font-style: italic;
+  width: 90%;
+  margin: auto;
+}
+.container button{
+border: none;
+background: #3dc;
+color: red;
+padding: .5em;
+margin-top: 1em;
+font-size: 1em;
+}
+.container:hover h1{
+     transform: translateY(-220px);
+     -webkit-transform: translateY(-220px);
+     -moz-transform: translateY(-220px);
+     -ms-transform: translateY(-220px);
+     -o-transform: translateY(-220px);
+}
